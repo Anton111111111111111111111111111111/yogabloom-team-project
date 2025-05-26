@@ -6,7 +6,6 @@
 
 .yoga-classes-title-text {
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   margin-bottom: 12px;
@@ -23,8 +22,6 @@
 }
 
 .yoga-classes-text {
-  font-size: 16px;
-  line-height: 1.6;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -51,8 +48,6 @@
 }
 
 .yoga-classes-images-text {
-  font-size: 16px;
-  line-height: 1.6;
   text-align: center;
 }
 
@@ -65,21 +60,11 @@
   height: 46px;
   background-color: #c2d9fc;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
   transition: background-color 0.3s ease, transform 0.2s ease;
-}
-  
-.yoga-classes-button:hover,
-.yoga-classes-button:focus {
-    background-color: #005f56;
-    transform: scale(1.05);
-    color: #f8fbfe;
-    outline: none;
 }
 
 .yoga-classes-button-hiden-text {
@@ -154,7 +139,6 @@
   .yoga-classes {
     padding-top: 112px;
     padding-bottom: 112px;
-    background-color: #f2fafa;
   }
 
   .yoga-classes-title {
@@ -162,19 +146,12 @@
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 24px;
   }
 
   .yoga-classes-text {
-    font-size: 18px;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
-  }
-
-  .yoga-classes-list {
-    margin-bottom: 40px;
   }
 
   .yoga-classes-item {
