@@ -158,12 +158,12 @@ html {
     font-weight: 400;
     text-decoration: none;
     position: relative;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .nav-link:hover,
-  .nav-link:focus,
-  .mobile-nav-link:hover,
-  .mobile-nav-link:focus {
+  .nav-link:focus {
     text-shadow: 0.5px 0.5px 1px;
     transform: scale(1.2);
   }
@@ -264,6 +264,12 @@ html {
   font-family: 'Sarabun', sans-serif;
   font-weight: 400;
   text-decoration: none;
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:focus {
+  text-shadow: 0.5px 0.5px 1px;
 }
 
 .mobile-button-text {

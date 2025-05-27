@@ -49,17 +49,9 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* .btn-hero:hover,
-.btn-hero:focus {
-  background-color: #005f56;
-  transform: scale(1.05);
-  color: #f8fbfe;
-  outline: none;
-} */
-
 .btn-hero-learn {
   margin-bottom: 0;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   background: rgba(13, 11, 10, 0.05);
 }
 
@@ -94,9 +86,7 @@
     flex-direction: row;
     gap: 16px;
   }
-  .btn-hero {
-    font-size: 18px;
-  }
+
   .btn-hero-join .desk-btn-join {
     display: inline;
   }
